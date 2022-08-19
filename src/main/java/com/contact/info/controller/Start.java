@@ -21,7 +21,7 @@ public class Start {
     @RequestMapping(path="/", method = RequestMethod.GET)
     public String getRootResource() {
         comp1.setInfo(comp1.getInfo() + "|");
-        return "welcome to our service: " + comp1.getInfo();
+        return "welcome to our service: " + comp1.getInfo() + ", " + comp1.getAlfa();
     }
 
     @RequestMapping(path="/info1", method = RequestMethod.GET)
