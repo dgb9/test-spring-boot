@@ -1,0 +1,18 @@
+spring:
+  config:
+    activate:
+      on-profile: default
+
+info:
+  alfa: 12
+---
+spring:
+  config:
+    activate:
+      on-profile: other
+
+info:
+  alfa: 20
+
+
+
