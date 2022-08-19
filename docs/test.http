@@ -1,0 +1,33 @@
+### Send POST request with json body
+POST http://localhost:8080/post1
+Content-Type: application/json
+
+{
+  "val1": "999",
+  "val2": "content",
+  "ids": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "vals": ["first", "second"]
+}
+
+### Send POST request with json body
+POST http://localhost:8080/post2
+Content-Type: application/json
+
+{
+  "val1": "999",
+  "val2": "content",
+  "ids": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "vals": ["first", "second"]
+}
